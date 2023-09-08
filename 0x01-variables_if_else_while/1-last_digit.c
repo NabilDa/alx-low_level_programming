@@ -17,7 +17,8 @@ int main(void)
 
 	/* Getting and storing the last digit of the variable n
 	   into another variable */
-	int last_digit = n % 10;
+	int last_digit;
+	last_digit = n % 10;
 
 	/* Conditions. */
 	if (last_digit > 5)
