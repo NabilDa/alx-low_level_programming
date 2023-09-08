@@ -10,14 +10,12 @@
 int main(void)
 {
 	int n;
+	int last_digit;
 
 	/* Assigning a random value to n. */
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	/* Getting and storing the last digit of the variable n
-	   into another variable */
-	int last_digit;
 	last_digit = n % 10;
 
 	/* Conditions. */
