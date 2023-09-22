@@ -1,7 +1,7 @@
 /**
  * _strncat - Concatenate two strings
  * @dest: pointer to the first string
- * @char: pointer to the second string
+ * @src: pointer to the second string
  * @n: the number of bytes to be concatenated
  *
  * Description: concatenates n bytes from the second string
