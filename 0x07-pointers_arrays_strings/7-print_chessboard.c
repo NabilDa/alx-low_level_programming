@@ -2,7 +2,7 @@
 
 /**
  * print_chessboard - prints the chessboard
- * (*a)[8]: the 2D arrays containing characters to print
+ * @a: pointer to the 2d array of characters to print
  *
  * Return: Nothing.
  */
