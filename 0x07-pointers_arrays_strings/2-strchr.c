@@ -6,17 +6,17 @@
  * @c: the character to be located
  *
  * Return: the address of the first occurence of the character c,
- * or NULL there's no occurence
+ * or NULL if there's no occurence
  */
 char *_strchr(char *s, char c)
 {
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		if (s[i] == c)
+		if (*(s + i) == c)
 		{
-			return (&s[i]);
+			return (s + i);
 		}
 	}
 	return (0);
