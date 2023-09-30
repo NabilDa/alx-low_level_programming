@@ -5,8 +5,11 @@
  * @i: used to find the square root of n
  * @n: the integer we want to find its square root
  *
- * Return: -1 if either the square root of n is not an integer, or if n is negative;
- * 0 if n is 0; 1 if n is 1; otherwise, return i, which will be the square root of n.
+ * Return: -1 if either the square root of n is not an integer,
+ * or if n is negative;
+ * 0 if n is 0;
+ * 1 if n is 1;
+ * otherwise, return i, which will be the square root of n.
  */
 int square(int i, int n)
 {
@@ -35,7 +38,7 @@ int square(int i, int n)
 		}
 		else
 		{
-			return(square((i + 1), n));
+			return (square((i + 1), n));
 		}
 	}
 }
@@ -48,7 +51,9 @@ int square(int i, int n)
  */
 int _sqrt_recursion(int n)
 {
-	int i = 2;
+	int i;
+
+	i = 2;
 
 	return (square(i, n));
 }
