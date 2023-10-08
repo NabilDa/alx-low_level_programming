@@ -65,10 +65,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		strcpy(p, s2);
 	}
-	else
-	{
-		return (NULL);
-	}
 
 	return (p);
 }
