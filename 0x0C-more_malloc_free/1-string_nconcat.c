@@ -75,6 +75,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		strncpy(p, s2, n);
 	}
+	else
+	{
+		return (NULL);
+	}
 
 	return (p);
 }
